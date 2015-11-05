@@ -1,0 +1,27 @@
+.centerBox{
+	width: 200px; 
+	height:200px; 
+	margin: auto;
+}
+#minimap{
+	border: 2px solid black;
+}
+#megamap{
+	border: 2px solid red;
+}
+#console{
+	background: #000000;
+	border: 2px solid green;
+	padding: 2px;
+	width: 400px;
+	overflow:hidden;
+	white-space: nowrap;
+}
+#console p{
+	font: bold small-caps 0.8em/1.4 Arial;
+	color: green;
+}
+.info p, .info h1{
+	font: Arial;
+	color: black;
+}
