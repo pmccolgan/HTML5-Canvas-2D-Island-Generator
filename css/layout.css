@@ -25,7 +25,6 @@ p, h1 {
 	font: bold small-caps 0.8em/1.4 Arial;
 	color: green;
 }
+
 .info p, .info h1{
-	font: Arial;
-	color: black;
 }

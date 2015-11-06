@@ -20,9 +20,9 @@
 <div class="info">
 	<h1>HTML5 Canvas 2D Island Generator</h1>
 	<p>This was a small project to look at the HTML5 Canvas element and practise some JavaScript.</p>
-	<p>In the top box is a randomly generated 'island', a cell can be <span style="background-color: #004DFF">deep water</span>, <span style="background-color: #00CCFF">shallow water</span>, <span style="background-color: #FFFF99">sand</span>, <span style="background-color: #66CC00">grass</span>, <span style="background-color: #339900">a tree</span> or <span style="background-color: #C2C2C2">rock</span>.  The outer 3 rows/columns are always <span style="background-color: #004DFF">deep water</span>, the middle is randomly generated.  Use this button below to re-generate:</p>
+	<p>The top box is a randomly generated 'island', a cell can be <span style="background-color: #004DFF">deep water</span>, <span style="background-color: #00CCFF">shallow water</span>, <span style="background-color: #FFFF99">sand</span>, <span style="background-color: #66CC00">grass</span>, <span style="background-color: #339900">a tree</span> or <span style="background-color: #C2C2C2">rock</span>.  Use this button to re-generate:</p>
 	<button type="button" onclick="init()">Reset map</button>
-	<p>Left click a cell in the top box to change the cell type.</p>
+	<p>Click a cell in the top box to cycle the cell type.</p>
 </div>
 <div id="minimap" class='centerBox'>
 	<canvas id="miniMapCanvas" width="200" height="200">
@@ -30,7 +30,7 @@
 	</canvas>
 </div>
 <div class="info">
-	<p>The middle box is a zoomed-in view of the island, the pink cell is a <span style="background-color: #FFC0CB">character</span>.  The character can walk on certain cells (not <span style="background-color: #004DFF">deep water</span>, <span style="background-color: #339900">trees</span> or <span style="background-color: #C2C2C2">rock</span>) by using the &#11013;, &#11014;, &#11015; and &#10145; keys.  When the island is generated the character is positioned on a random 'walkable' cell.</p>
+	<p>The middle box is a zoomed-in view of the island, the pink cell is a <span style="background-color: #FFC0CB">character</span>.  The character can walk on certain cells (not <span style="background-color: #004DFF">deep water</span>, <span style="background-color: #339900">trees</span> or <span style="background-color: #C2C2C2">rock</span>) by using the W, A, S, and D keys.</p>
 </div>
 <div id="megamap" class='centerBox'>
 	<canvas id="megaMapCanvas" width="200" height="200">

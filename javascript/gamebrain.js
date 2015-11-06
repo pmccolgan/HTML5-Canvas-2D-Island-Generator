@@ -182,23 +182,24 @@
 		var code = e.keyCode;
 		switch (code) 
 		{
-			case 37: 
-				//Left
+			// change arrow keys to WASD so page doesn't scroll
+			case 65: //37: 
+				//Left A
 				character.left();
 				renderMegaMap();
 				break;
-			case 38: 
-				//Up;
+			case 87: //38: 
+				//Up W
 				character.up();
 				renderMegaMap();
 				break;
-			case 39: 
-				//Right
+			case 68: //39: 
+				//Right D
 				character.right();
 				renderMegaMap();
 				break;
-			case 40: 
-				//Down
+			case 83: //40: 
+				//Down S
 				character.down();
 				renderMegaMap();
 				break;
